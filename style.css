@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .heading {
     font-size: 35px;
 }
@@ -34,21 +38,23 @@ body {
 }
 
 .subheading {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     color: #2F5A78;
     text-transform: uppercase;
 }
-
+.text-center{
+    text-align: center;
+}
 .prof {
     font-size: 20px;
     font-weight: lighter;
 }
 
-.subheading {
+/* .subheading {
     font-size: 20px;
     font-weight: bolder;
-}
+} */
 
 .intro {
     background-color: #2F5A78;
@@ -64,21 +70,12 @@ body {
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #eeeeee;
+    align-items: center;
 }
 
 .contactinfo {
     font-size: 15px;
     padding-left: 16px;
-}
-
-.subheading {
-    font-size: 20px;
-    font-weight: bolder;
-    color: #2F5A78;
-}
-
-.icon {
-    color: #2F5A78;
 }
 
 .date {
@@ -92,7 +89,6 @@ body {
     margin-bottom: 10px;
     justify-content: space-between;
     align-items: center;
-    margin-left: -15px;
 }
 
 .skill_name {
@@ -108,6 +104,18 @@ img {
 }
 
 .icon {
+    display: flex;
+    flex-direction: row;
     float: left;
     color: #2F5A78;
+    gap: 10px;
+}
+.data{
+    padding-left: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
